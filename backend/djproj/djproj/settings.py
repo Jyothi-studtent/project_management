@@ -157,10 +157,10 @@ USE_TZ = True
 
 CORS_ALLOW_ALL_ORIGINS = True
 CORS_ORIGIN_WHITELIST = (
-    'http://localhost:3000', 'http://localhost:8000',"http://*" # Add your frontend origin here
+    'http://localhost:3000', 'http://localhost:8000' # Add your frontend origin here
 )
 CORS_ALLOW_CREDENTIALS = True
-CSRF_TRUSTED_ORIGINS = ['http://localhost:3000',"http://*"]
+CSRF_TRUSTED_ORIGINS = ['http://localhost:3000']
 # Optional: Allow specific headers in CORS requests
 
 STATIC_URL = '/static/'
